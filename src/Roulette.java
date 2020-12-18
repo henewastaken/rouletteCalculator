@@ -19,7 +19,7 @@ public class Roulette {
         // Inside bets
         k.setVisible(true);
         
-        
+//
 //        betsList.add(new Straight(1, 1));
 //        betsList.add(new Straight(1, 2));
 //        betsList.add(new Split(5, new int[]{1, 2}));
