@@ -1,3 +1,5 @@
+package bets;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +28,7 @@ public class FirstHalf extends Bets {
      * @return true if won, false if lost.
      */
     @Override
-    boolean doesWin(int number) {
+    public boolean doesWin(int number) {
         if (number >= 1 && number <= 18) {
             return true;
         } else {

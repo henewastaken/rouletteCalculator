@@ -1,27 +1,26 @@
-        
+package bets;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Class for Split bet.
- * Three horisontal numbers. Win 11 to 1.
- * @author hene
+ * Class for Basket bet. 
+ * Bet is numbers 0, 00, 1, 2, 3. Win 6 to 1.
+ * @author henea
  */
-
-public class Street extends Bets{
-    int[] numbers; // Array for betted numbers
+public class Basket extends Bets{
+    int[] number;
     int payout; // Multiplier for win amount.
-
+    
     /**
-      * Constructor.
-      * @param bet the bet amount
-      * @param numbers, a list that have the betted numbers.
-      */
-    public Street(int bet, int[] numbers) {
+     * Constructor method
+     * @param bet the bet amount
+     */
+    public Basket(int bet) {
         super.bet = bet; // Tell Bets class the bet amount.
-        super.payout = 11; // Tell Bets class the payout multiplier.
+        super.payout = 6; // Tell Bets class the payout multiplier.
 //        super.bankroll -= bet; // Subtract bet form bankroll;
-        this.numbers = numbers; 
+        this.numbers = new int[] {0, 00, 1, 2, 3};
+
     }
     
     /**
@@ -30,7 +29,7 @@ public class Street extends Bets{
      * @return true if won, false if lost.
      */
     @Override
-    boolean doesWin(int number) {
+    public boolean doesWin(int number) {
         // Convert int[] --> List.
         List<Integer> nums = new ArrayList<>();
         for (int i: this.numbers) {
@@ -46,6 +45,8 @@ public class Street extends Bets{
         for (int i: this.numbers) {
             nums.add(i);
         }
-        return "Street {" + "numbers=" + nums + ", payout=" + super.payout + '}';
+        return "Bakset {" + "number=" + nums + ", payout=" + super.payout + '}';
     }
+    
+    
 }

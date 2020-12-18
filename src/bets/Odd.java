@@ -1,24 +1,24 @@
+package bets;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Class for 2nd dozen bet. 
- * 13-24. Win 2 to 1.
+ * Class for odd bet. 
+ * Odd numbers. Win 1 to 1.
  * @author hene
  */
-public class SecondDozen extends Bets { 
-
-    // int[] numbers = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};; // Array for betted numbers
+public class Odd extends Bets { 
     int payout; // Multiplier for win amount.
 
     /**
      * Constructor.
      * @param bet the bet amount
      */
-    public SecondDozen(int bet) {
+    public Odd(int bet) {
         super.bet = bet; // Tell Bets class the bet amount.
-        super.payout = 2; // Tell Bets class the payout multiplier.
+        super.payout = 1; // Tell Bets class the payout multiplier.
     }
 
     /**
@@ -28,16 +28,16 @@ public class SecondDozen extends Bets {
      * @return true if won, false if lost.
      */
     @Override
-    boolean doesWin(int number) {
-        if (number >= 13 && number <= 24) {
-            return true;
-        } else {
+    public boolean doesWin(int number) {
+        if (number % 2 == 0) {
             return false;
+        } else {
+            return true;
         }
     }
 
     @Override
     public String toString() {
-        return "2nd dozen {numbers= [13-24], payout=" + super.payout + '}';
+        return "Odd {numbers= [odd], payout=" + super.payout + '}';
     }
 }

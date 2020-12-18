@@ -1,3 +1,4 @@
+import bets.Bets;
 import java.util.ArrayList;
 
 /**
@@ -15,9 +16,10 @@ public class Roulette {
     public static void main(String[] args) {
         
        
-        Käyttöliittymä k = new Käyttöliittymä();
+        GUI k = new GUI();
         // Inside bets
         k.setVisible(true);
+        // 
         
 //
 //        betsList.add(new Straight(1, 1));

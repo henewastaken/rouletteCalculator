@@ -1,10 +1,11 @@
+package bets;
 
 /**
  * Class for Straigh bet. 
  * One sumgle number. Win 35 to 1.
  * @author henea
  */
-class Straight extends Bets{
+public class Straight extends Bets{
     int number;
     int payout; // Multiplier for win amount.
     
@@ -27,7 +28,7 @@ class Straight extends Bets{
      * @return true if won, false if lost.
      */
     @Override
-    boolean doesWin(int number) {
+    public boolean doesWin(int number) {
         return number == this.number;
     }
 

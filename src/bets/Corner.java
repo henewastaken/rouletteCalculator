@@ -1,13 +1,14 @@
+package bets;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Class for First column bet. 
- * 1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34. Win 2 to 1.
+ * Class for Corner bet. Four cornering numbers. Win 8 to 1.
  * @author hene
  */
-public class FirstColumn extends Bets { 
+public class Corner extends Bets { 
 
     int[] numbers; // Array for betted numbers
     int payout; // Multiplier for win amount.
@@ -15,12 +16,13 @@ public class FirstColumn extends Bets {
     /**
      * Constructor.
      * @param bet the bet amount
+     * @param numbers, a list that have the betted numbers.
      */
-    public FirstColumn(int bet) {
+    public Corner(int bet, int[] numbers) {
         super.bet = bet; // Tell Bets class the bet amount.
-        super.payout = 2; // Tell Bets class the payout multiplier.
+        super.payout = 8; // Tell Bets class the payout multiplier.
 //        super.bankroll -= bet; // Subtract bet form bankroll;
-        this.numbers = new int[] {1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34};
+        this.numbers = numbers;
     }
 
     /**
@@ -30,7 +32,7 @@ public class FirstColumn extends Bets {
      * @return true if won, false if lost.
      */
     @Override
-    boolean doesWin(int number) {
+    public boolean doesWin(int number) {
         // Convert int[] --> List.
         List<Integer> nums = new ArrayList<>();
         for (int i : this.numbers) {
@@ -46,6 +48,6 @@ public class FirstColumn extends Bets {
         for (int i : this.numbers) {
             nums.add(i);
         }
-        return "1st column {" + "numbers=" + nums + ", payout=" + super.payout + '}';
+        return "Corner {" + "numbers=" + nums + ", payout=" + super.payout + '}';
     }
 }

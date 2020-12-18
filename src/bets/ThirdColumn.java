@@ -1,27 +1,27 @@
+package bets;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Class for Split bet. Two adjoining numbers. Win 17 to 1.
+ * Class for third column bet. 
+ * 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36. Win 2 to 1.
  * @author hene
  */
-public class Split extends Bets {
+public class ThirdColumn extends Bets { 
 
-    int[] numbers; // Array for betted numbers
+    int[] numbers = new int[] {3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36};// Array for betted numbers
     int payout; // Multiplier for win amount.
 
     /**
      * Constructor.
      * @param bet the bet amount
-     * @param numbers, a list that have the betted numbers.
      */
-    public Split(int bet, int[] numbers) {
+    public ThirdColumn(int bet) {
         super.bet = bet; // Tell Bets class the bet amount.
-        super.payout = 17; // Tell Bets class the payout multiplier.
+        super.payout = 2; // Tell Bets class the payout multiplier.
 //        super.bankroll -= bet; // Subtract bet form bankroll;
-        this.numbers = numbers;
-
     }
 
     /**
@@ -31,7 +31,7 @@ public class Split extends Bets {
      * @return true if won, false if lost.
      */
     @Override
-    boolean doesWin(int number) {
+    public boolean doesWin(int number) {
         // Convert int[] --> List.
         List<Integer> nums = new ArrayList<>();
         for (int i : this.numbers) {
@@ -47,6 +47,6 @@ public class Split extends Bets {
         for (int i : this.numbers) {
             nums.add(i);
         }
-        return "Split {" + "numbers=" + nums + ", payout=" + super.payout + '}';
+        return "3rd column {" + "numbers=" + nums + ", payout=" + super.payout + '}';
     }
 }
