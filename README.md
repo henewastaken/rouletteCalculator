@@ -2,7 +2,7 @@ A roulette bet calculator.
 Made for players who want to adjust their betting system.
 NOT FINISHED YET. 
 
-To run use main
+To run: download scf file and run main.
 
 TODO:
 - roulette wheel and number chooser
