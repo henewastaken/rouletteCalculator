@@ -178,8 +178,6 @@ public class GUI extends javax.swing.JFrame {
         bet012 = new javax.swing.JCheckBox();
         bet123 = new javax.swing.JCheckBox();
         bet0023 = new javax.swing.JCheckBox();
-        ZeroLabel = new javax.swing.JLabel();
-        doubleZer = new javax.swing.JLabel();
         texti = new javax.swing.JLabel();
         texti2 = new javax.swing.JLabel();
         bet1 = new javax.swing.JCheckBox();
@@ -203,7 +201,6 @@ public class GUI extends javax.swing.JFrame {
         bet12 = new javax.swing.JCheckBox();
         first12 = new javax.swing.JCheckBox();
         bet0x00 = new javax.swing.JCheckBox();
-        zeroDevider = new javax.swing.JPanel();
         black = new javax.swing.JCheckBox();
         odd = new javax.swing.JCheckBox();
         even = new javax.swing.JCheckBox();
@@ -214,7 +211,56 @@ public class GUI extends javax.swing.JFrame {
         secondHalf = new javax.swing.JCheckBox();
         third12 = new javax.swing.JCheckBox();
         second12 = new javax.swing.JCheckBox();
-        jLabel1 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jTextField2 = new javax.swing.JTextField();
+        jTextField3 = new javax.swing.JTextField();
+        jTextField4 = new javax.swing.JTextField();
+        jTextField5 = new javax.swing.JTextField();
+        jTextField6 = new javax.swing.JTextField();
+        jTextField7 = new javax.swing.JTextField();
+        jTextField8 = new javax.swing.JTextField();
+        jTextField9 = new javax.swing.JTextField();
+        jTextField10 = new javax.swing.JTextField();
+        jTextField11 = new javax.swing.JTextField();
+        jTextField12 = new javax.swing.JTextField();
+        jTextField13 = new javax.swing.JTextField();
+        jTextField14 = new javax.swing.JTextField();
+        jTextField15 = new javax.swing.JTextField();
+        jTextField16 = new javax.swing.JTextField();
+        jTextField17 = new javax.swing.JTextField();
+        jTextField18 = new javax.swing.JTextField();
+        jTextField19 = new javax.swing.JTextField();
+        jTextField20 = new javax.swing.JTextField();
+        jTextField21 = new javax.swing.JTextField();
+        jTextField22 = new javax.swing.JTextField();
+        jTextField23 = new javax.swing.JTextField();
+        jTextField24 = new javax.swing.JTextField();
+        jTextField25 = new javax.swing.JTextField();
+        jTextField26 = new javax.swing.JTextField();
+        jTextField27 = new javax.swing.JTextField();
+        jTextField28 = new javax.swing.JTextField();
+        jTextField29 = new javax.swing.JTextField();
+        jTextField30 = new javax.swing.JTextField();
+        jTextField31 = new javax.swing.JTextField();
+        jTextField32 = new javax.swing.JTextField();
+        jTextField33 = new javax.swing.JTextField();
+        jTextField34 = new javax.swing.JTextField();
+        jTextField35 = new javax.swing.JTextField();
+        jTextField36 = new javax.swing.JTextField();
+        jTextField38 = new javax.swing.JTextField();
+        jTextField40 = new javax.swing.JTextField();
+        jTextField41 = new javax.swing.JTextField();
+        jTextField37 = new javax.swing.JTextField();
+        jTextField39 = new javax.swing.JTextField();
+        jTextField42 = new javax.swing.JTextField();
+        jTextField43 = new javax.swing.JTextField();
+        jTextField44 = new javax.swing.JTextField();
+        jTextField45 = new javax.swing.JTextField();
+        jTextField46 = new javax.swing.JTextField();
+        jTextField47 = new javax.swing.JTextField();
+        jTextField48 = new javax.swing.JTextField();
+        jTextField49 = new javax.swing.JTextField();
+        jTextField50 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -230,7 +276,7 @@ public class GUI extends javax.swing.JFrame {
 
         bet25to30.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet25to30);
-        bet25to30.setBounds(290, 640, 20, 21);
+        bet25to30.setBounds(290, 650, 20, 21);
 
         bet282930.setBackground(new java.awt.Color(0, 102, 51));
         bet282930.addActionListener(new java.awt.event.ActionListener() {
@@ -239,11 +285,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet282930);
-        bet282930.setBounds(290, 670, 20, 21);
+        bet282930.setBounds(290, 680, 20, 21);
 
         bet28to33.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet28to33);
-        bet28to33.setBounds(290, 700, 20, 21);
+        bet28to33.setBounds(290, 710, 20, 21);
 
         bet28x31.setBackground(new java.awt.Color(0, 102, 51));
         bet28x31.addActionListener(new java.awt.event.ActionListener() {
@@ -252,7 +298,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet28x31);
-        bet28x31.setBounds(340, 700, 20, 21);
+        bet28x31.setBounds(340, 710, 20, 21);
 
         bet25x28.setBackground(new java.awt.Color(0, 102, 51));
         bet25x28.addActionListener(new java.awt.event.ActionListener() {
@@ -261,7 +307,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet25x28);
-        bet25x28.setBounds(340, 640, 20, 21);
+        bet25x28.setBounds(340, 650, 20, 21);
 
         bet31.setBackground(new java.awt.Color(0, 0, 0));
         bet31.addActionListener(new java.awt.event.ActionListener() {
@@ -270,11 +316,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet31);
-        bet31.setBounds(370, 730, 20, 21);
+        bet31.setBounds(370, 740, 20, 21);
 
         bet25x26x28x29.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet25x26x28x29);
-        bet25x26x28x29.setBounds(400, 640, 20, 21);
+        bet25x26x28x29.setBounds(400, 650, 20, 21);
 
         bet28x29.setBackground(new java.awt.Color(0, 102, 51));
         bet28x29.addActionListener(new java.awt.event.ActionListener() {
@@ -283,11 +329,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet28x29);
-        bet28x29.setBounds(400, 670, 20, 21);
+        bet28x29.setBounds(400, 680, 20, 21);
 
         bet28x29x31x32.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet28x29x31x32);
-        bet28x29x31x32.setBounds(400, 700, 20, 21);
+        bet28x29x31x32.setBounds(400, 710, 20, 21);
 
         bet29x32.setBackground(new java.awt.Color(0, 102, 51));
         bet29x32.addActionListener(new java.awt.event.ActionListener() {
@@ -296,7 +342,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet29x32);
-        bet29x32.setBounds(460, 700, 20, 21);
+        bet29x32.setBounds(460, 710, 20, 21);
 
         bet26x29.setBackground(new java.awt.Color(0, 102, 51));
         bet26x29.addActionListener(new java.awt.event.ActionListener() {
@@ -305,7 +351,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet26x29);
-        bet26x29.setBounds(460, 640, 20, 21);
+        bet26x29.setBounds(460, 650, 20, 21);
 
         bet26.setBackground(new java.awt.Color(0, 0, 0));
         bet26.addActionListener(new java.awt.event.ActionListener() {
@@ -314,11 +360,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet26);
-        bet26.setBounds(490, 610, 21, 21);
+        bet26.setBounds(490, 620, 21, 21);
 
         bet26x27x29x30.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet26x27x29x30);
-        bet26x27x29x30.setBounds(520, 640, 20, 21);
+        bet26x27x29x30.setBounds(520, 650, 20, 21);
 
         bet29x30.setBackground(new java.awt.Color(0, 102, 51));
         bet29x30.addActionListener(new java.awt.event.ActionListener() {
@@ -327,11 +373,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet29x30);
-        bet29x30.setBounds(520, 670, 20, 21);
+        bet29x30.setBounds(520, 680, 20, 21);
 
         bet29x30x32x33.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet29x30x32x33);
-        bet29x30x32x33.setBounds(520, 700, 20, 21);
+        bet29x30x32x33.setBounds(520, 710, 20, 21);
 
         bet30x33.setBackground(new java.awt.Color(0, 102, 51));
         bet30x33.addActionListener(new java.awt.event.ActionListener() {
@@ -340,7 +386,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet30x33);
-        bet30x33.setBounds(580, 700, 20, 21);
+        bet30x33.setBounds(580, 710, 20, 21);
 
         bet27.setBackground(new java.awt.Color(255, 0, 0));
         bet27.addActionListener(new java.awt.event.ActionListener() {
@@ -349,7 +395,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet27);
-        bet27.setBounds(610, 610, 21, 20);
+        bet27.setBounds(610, 620, 21, 20);
 
         bet27x30.setBackground(new java.awt.Color(0, 102, 51));
         bet27x30.addActionListener(new java.awt.event.ActionListener() {
@@ -358,7 +404,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet27x30);
-        bet27x30.setBounds(580, 640, 20, 21);
+        bet27x30.setBounds(580, 650, 20, 21);
 
         bet313233.setBackground(new java.awt.Color(0, 102, 51));
         bet313233.addActionListener(new java.awt.event.ActionListener() {
@@ -367,7 +413,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet313233);
-        bet313233.setBounds(290, 730, 20, 21);
+        bet313233.setBounds(290, 740, 20, 21);
 
         bet28.setBackground(new java.awt.Color(0, 0, 0));
         bet28.addActionListener(new java.awt.event.ActionListener() {
@@ -376,7 +422,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet28);
-        bet28.setBounds(370, 670, 20, 21);
+        bet28.setBounds(370, 680, 20, 21);
 
         bet31x32.setBackground(new java.awt.Color(0, 102, 51));
         bet31x32.addActionListener(new java.awt.event.ActionListener() {
@@ -385,7 +431,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet31x32);
-        bet31x32.setBounds(400, 730, 20, 21);
+        bet31x32.setBounds(400, 740, 20, 21);
 
         bet32.setBackground(new java.awt.Color(255, 0, 0));
         bet32.addActionListener(new java.awt.event.ActionListener() {
@@ -394,7 +440,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet32);
-        bet32.setBounds(490, 730, 21, 20);
+        bet32.setBounds(490, 740, 21, 20);
 
         bet32x33.setBackground(new java.awt.Color(0, 102, 51));
         bet32x33.addActionListener(new java.awt.event.ActionListener() {
@@ -403,7 +449,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet32x33);
-        bet32x33.setBounds(520, 730, 20, 21);
+        bet32x33.setBounds(520, 740, 20, 21);
 
         bet33.setBackground(new java.awt.Color(0, 0, 0));
         bet33.addActionListener(new java.awt.event.ActionListener() {
@@ -412,7 +458,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet33);
-        bet33.setBounds(610, 730, 20, 21);
+        bet33.setBounds(610, 740, 20, 21);
 
         bet31to36.setBackground(new java.awt.Color(0, 102, 51));
         bet31to36.addActionListener(new java.awt.event.ActionListener() {
@@ -421,7 +467,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet31to36);
-        bet31to36.setBounds(290, 760, 20, 21);
+        bet31to36.setBounds(290, 770, 20, 21);
 
         bet31x34.setBackground(new java.awt.Color(0, 102, 51));
         bet31x34.addActionListener(new java.awt.event.ActionListener() {
@@ -430,11 +476,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet31x34);
-        bet31x34.setBounds(340, 760, 20, 21);
+        bet31x34.setBounds(340, 770, 20, 21);
 
         bet31x32x34x35.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet31x32x34x35);
-        bet31x32x34x35.setBounds(400, 760, 20, 21);
+        bet31x32x34x35.setBounds(400, 770, 20, 21);
 
         bet32x35.setBackground(new java.awt.Color(0, 102, 51));
         bet32x35.addActionListener(new java.awt.event.ActionListener() {
@@ -443,11 +489,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet32x35);
-        bet32x35.setBounds(460, 760, 20, 21);
+        bet32x35.setBounds(460, 770, 20, 21);
 
         bet32x33x35x36.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet32x33x35x36);
-        bet32x33x35x36.setBounds(520, 760, 20, 21);
+        bet32x33x35x36.setBounds(520, 770, 20, 21);
 
         bet33x36.setBackground(new java.awt.Color(0, 102, 51));
         bet33x36.addActionListener(new java.awt.event.ActionListener() {
@@ -456,7 +502,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet33x36);
-        bet33x36.setBounds(580, 760, 20, 21);
+        bet33x36.setBounds(580, 770, 20, 21);
 
         bet343536.setBackground(new java.awt.Color(0, 102, 51));
         bet343536.addActionListener(new java.awt.event.ActionListener() {
@@ -465,7 +511,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet343536);
-        bet343536.setBounds(290, 790, 20, 21);
+        bet343536.setBounds(290, 800, 20, 21);
 
         bet25.setBackground(new java.awt.Color(255, 0, 0));
         bet25.addActionListener(new java.awt.event.ActionListener() {
@@ -474,7 +520,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet25);
-        bet25.setBounds(370, 610, 20, 21);
+        bet25.setBounds(370, 620, 20, 21);
 
         bet34x35.setBackground(new java.awt.Color(0, 102, 51));
         bet34x35.addActionListener(new java.awt.event.ActionListener() {
@@ -483,7 +529,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet34x35);
-        bet34x35.setBounds(400, 790, 20, 21);
+        bet34x35.setBounds(400, 800, 20, 21);
 
         bet29.setBackground(new java.awt.Color(0, 0, 0));
         bet29.addActionListener(new java.awt.event.ActionListener() {
@@ -492,11 +538,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet29);
-        bet29.setBounds(490, 670, 20, 21);
+        bet29.setBounds(490, 680, 20, 21);
 
         bet35x36.setBackground(new java.awt.Color(0, 102, 51));
         getContentPane().add(bet35x36);
-        bet35x36.setBounds(520, 790, 21, 21);
+        bet35x36.setBounds(520, 800, 21, 21);
 
         bet30.setBackground(new java.awt.Color(255, 0, 0));
         bet30.addActionListener(new java.awt.event.ActionListener() {
@@ -505,7 +551,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet30);
-        bet30.setBounds(610, 670, 21, 20);
+        bet30.setBounds(610, 680, 21, 20);
 
         bet252627.setBackground(new java.awt.Color(0, 102, 51));
         bet252627.addActionListener(new java.awt.event.ActionListener() {
@@ -514,7 +560,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet252627);
-        bet252627.setBounds(290, 610, 20, 21);
+        bet252627.setBounds(290, 620, 20, 21);
 
         bet34.setBackground(new java.awt.Color(255, 0, 0));
         bet34.addActionListener(new java.awt.event.ActionListener() {
@@ -523,7 +569,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet34);
-        bet34.setBounds(370, 790, 20, 21);
+        bet34.setBounds(370, 800, 20, 21);
 
         bet25x26.setBackground(new java.awt.Color(0, 102, 51));
         bet25x26.addActionListener(new java.awt.event.ActionListener() {
@@ -532,7 +578,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet25x26);
-        bet25x26.setBounds(400, 610, 20, 21);
+        bet25x26.setBounds(400, 620, 20, 21);
 
         bet35.setBackground(new java.awt.Color(0, 0, 0));
         bet35.addActionListener(new java.awt.event.ActionListener() {
@@ -541,11 +587,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet35);
-        bet35.setBounds(490, 790, 20, 21);
+        bet35.setBounds(490, 800, 20, 21);
 
         bet26x27.setBackground(new java.awt.Color(0, 102, 51));
         getContentPane().add(bet26x27);
-        bet26x27.setBounds(520, 610, 21, 21);
+        bet26x27.setBounds(520, 620, 21, 21);
 
         bet36.setBackground(new java.awt.Color(255, 0, 0));
         bet36.addActionListener(new java.awt.event.ActionListener() {
@@ -554,7 +600,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet36);
-        bet36.setBounds(610, 790, 21, 20);
+        bet36.setBounds(610, 800, 21, 20);
 
         bet222324.setBackground(new java.awt.Color(0, 102, 51));
         bet222324.addActionListener(new java.awt.event.ActionListener() {
@@ -563,7 +609,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet222324);
-        bet222324.setBounds(290, 550, 20, 21);
+        bet222324.setBounds(290, 560, 20, 21);
 
         bet22to27.setBackground(new java.awt.Color(0, 102, 51));
         bet22to27.addActionListener(new java.awt.event.ActionListener() {
@@ -572,7 +618,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet22to27);
-        bet22to27.setBounds(290, 580, 20, 21);
+        bet22to27.setBounds(290, 590, 20, 21);
 
         bet22x25.setBackground(new java.awt.Color(0, 102, 51));
         bet22x25.addActionListener(new java.awt.event.ActionListener() {
@@ -581,7 +627,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet22x25);
-        bet22x25.setBounds(340, 580, 20, 21);
+        bet22x25.setBounds(340, 590, 20, 21);
 
         bet22.setBackground(new java.awt.Color(0, 0, 0));
         bet22.addActionListener(new java.awt.event.ActionListener() {
@@ -590,7 +636,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet22);
-        bet22.setBounds(370, 550, 20, 21);
+        bet22.setBounds(370, 560, 20, 21);
 
         bet22x23.setBackground(new java.awt.Color(0, 102, 51));
         bet22x23.addActionListener(new java.awt.event.ActionListener() {
@@ -599,11 +645,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet22x23);
-        bet22x23.setBounds(400, 550, 20, 21);
+        bet22x23.setBounds(400, 560, 20, 21);
 
         bet22x23x25x26.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet22x23x25x26);
-        bet22x23x25x26.setBounds(400, 580, 20, 21);
+        bet22x23x25x26.setBounds(400, 590, 20, 21);
 
         bet23x26.setBackground(new java.awt.Color(0, 102, 51));
         bet23x26.addActionListener(new java.awt.event.ActionListener() {
@@ -612,7 +658,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet23x26);
-        bet23x26.setBounds(460, 580, 20, 21);
+        bet23x26.setBounds(460, 590, 20, 21);
 
         bet23.setBackground(new java.awt.Color(255, 0, 0));
         bet23.addActionListener(new java.awt.event.ActionListener() {
@@ -621,7 +667,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet23);
-        bet23.setBounds(490, 550, 21, 20);
+        bet23.setBounds(490, 560, 21, 20);
 
         bet23x24.setBackground(new java.awt.Color(0, 102, 51));
         bet23x24.addActionListener(new java.awt.event.ActionListener() {
@@ -630,11 +676,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet23x24);
-        bet23x24.setBounds(520, 550, 20, 21);
+        bet23x24.setBounds(520, 560, 20, 21);
 
         bet23x24x26x27.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet23x24x26x27);
-        bet23x24x26x27.setBounds(520, 580, 20, 21);
+        bet23x24x26x27.setBounds(520, 590, 20, 21);
 
         bet24.setBackground(new java.awt.Color(0, 0, 0));
         bet24.addActionListener(new java.awt.event.ActionListener() {
@@ -643,7 +689,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet24);
-        bet24.setBounds(610, 550, 20, 21);
+        bet24.setBounds(610, 560, 20, 21);
 
         bet24x27.setBackground(new java.awt.Color(0, 102, 51));
         bet24x27.addActionListener(new java.awt.event.ActionListener() {
@@ -652,7 +698,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet24x27);
-        bet24x27.setBounds(580, 580, 20, 21);
+        bet24x27.setBounds(580, 590, 20, 21);
 
         bet161718.setBackground(new java.awt.Color(0, 102, 51));
         bet161718.addActionListener(new java.awt.event.ActionListener() {
@@ -670,11 +716,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet192021);
-        bet192021.setBounds(290, 490, 20, 21);
+        bet192021.setBounds(290, 500, 20, 21);
 
         bet19to24.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet19to24);
-        bet19to24.setBounds(290, 520, 20, 21);
+        bet19to24.setBounds(290, 530, 20, 21);
 
         bet19x22.setBackground(new java.awt.Color(0, 102, 51));
         bet19x22.addActionListener(new java.awt.event.ActionListener() {
@@ -683,7 +729,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet19x22);
-        bet19x22.setBounds(340, 520, 20, 21);
+        bet19x22.setBounds(340, 530, 20, 21);
 
         bet19.setBackground(new java.awt.Color(255, 0, 0));
         bet19.addActionListener(new java.awt.event.ActionListener() {
@@ -692,7 +738,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet19);
-        bet19.setBounds(370, 500, 20, 21);
+        bet19.setBounds(370, 510, 20, 21);
 
         bet19x20.setBackground(new java.awt.Color(0, 102, 51));
         bet19x20.addActionListener(new java.awt.event.ActionListener() {
@@ -701,11 +747,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet19x20);
-        bet19x20.setBounds(400, 490, 20, 21);
+        bet19x20.setBounds(400, 500, 20, 21);
 
         bet19x20x22x23.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet19x20x22x23);
-        bet19x20x22x23.setBounds(400, 520, 20, 21);
+        bet19x20x22x23.setBounds(400, 530, 20, 21);
 
         bet20x23.setBackground(new java.awt.Color(0, 102, 51));
         bet20x23.addActionListener(new java.awt.event.ActionListener() {
@@ -714,7 +760,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet20x23);
-        bet20x23.setBounds(460, 520, 20, 21);
+        bet20x23.setBounds(460, 530, 20, 21);
 
         bet20.setBackground(new java.awt.Color(0, 0, 0));
         bet20.addActionListener(new java.awt.event.ActionListener() {
@@ -723,11 +769,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet20);
-        bet20.setBounds(490, 490, 20, 21);
+        bet20.setBounds(490, 500, 20, 21);
 
         bet20x21.setBackground(new java.awt.Color(0, 102, 51));
         getContentPane().add(bet20x21);
-        bet20x21.setBounds(520, 490, 21, 21);
+        bet20x21.setBounds(520, 500, 21, 21);
 
         bet21x24.setBackground(new java.awt.Color(0, 102, 51));
         bet21x24.addActionListener(new java.awt.event.ActionListener() {
@@ -736,7 +782,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet21x24);
-        bet21x24.setBounds(580, 520, 20, 21);
+        bet21x24.setBounds(580, 530, 20, 21);
 
         bet21.setBackground(new java.awt.Color(255, 0, 0));
         bet21.addActionListener(new java.awt.event.ActionListener() {
@@ -745,11 +791,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet21);
-        bet21.setBounds(610, 490, 21, 20);
+        bet21.setBounds(610, 500, 21, 20);
 
         bet20x21x23x24.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet20x21x23x24);
-        bet20x21x23x24.setBounds(520, 520, 20, 21);
+        bet20x21x23x24.setBounds(520, 530, 20, 21);
 
         bet16.setBackground(new java.awt.Color(255, 0, 0));
         bet16.addActionListener(new java.awt.event.ActionListener() {
@@ -793,7 +839,7 @@ public class GUI extends javax.swing.JFrame {
 
         bet16to21.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet16to21);
-        bet16to21.setBounds(290, 460, 20, 21);
+        bet16to21.setBounds(290, 470, 20, 21);
 
         bet16x19.setBackground(new java.awt.Color(0, 102, 51));
         bet16x19.addActionListener(new java.awt.event.ActionListener() {
@@ -802,11 +848,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet16x19);
-        bet16x19.setBounds(340, 460, 20, 21);
+        bet16x19.setBounds(340, 470, 20, 21);
 
         bet16x17x19x20.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet16x17x19x20);
-        bet16x17x19x20.setBounds(400, 460, 20, 21);
+        bet16x17x19x20.setBounds(400, 470, 20, 21);
 
         bet17x20.setBackground(new java.awt.Color(0, 102, 51));
         bet17x20.addActionListener(new java.awt.event.ActionListener() {
@@ -815,11 +861,11 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet17x20);
-        bet17x20.setBounds(460, 460, 20, 21);
+        bet17x20.setBounds(460, 470, 20, 21);
 
         bet17x18x20x21.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet17x18x20x21);
-        bet17x18x20x21.setBounds(520, 460, 20, 21);
+        bet17x18x20x21.setBounds(520, 470, 20, 21);
 
         bet18x21.setBackground(new java.awt.Color(0, 102, 51));
         bet18x21.addActionListener(new java.awt.event.ActionListener() {
@@ -828,7 +874,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet18x21);
-        bet18x21.setBounds(580, 460, 20, 21);
+        bet18x21.setBounds(580, 470, 20, 21);
 
         bet10to15.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet10to15);
@@ -1181,6 +1227,11 @@ public class GUI extends javax.swing.JFrame {
         betBasket.setBounds(290, 110, 20, 21);
 
         bet1to6.setBackground(new java.awt.Color(0, 102, 0));
+        bet1to6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bet1to6ActionPerformed(evt);
+            }
+        });
         getContentPane().add(bet1to6);
         bet1to6.setBounds(290, 170, 20, 21);
 
@@ -1209,18 +1260,6 @@ public class GUI extends javax.swing.JFrame {
         bet0023.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet0023);
         bet0023.setBounds(520, 110, 20, 21);
-
-        ZeroLabel.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        ZeroLabel.setForeground(new java.awt.Color(255, 255, 255));
-        ZeroLabel.setText("0");
-        getContentPane().add(ZeroLabel);
-        ZeroLabel.setBounds(380, 80, 20, 20);
-
-        doubleZer.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        doubleZer.setForeground(new java.awt.Color(255, 255, 255));
-        doubleZer.setText("00");
-        getContentPane().add(doubleZer);
-        doubleZer.setBounds(520, 80, 30, 20);
         getContentPane().add(texti);
         texti.setBounds(20, 1080, 920, 100);
         getContentPane().add(texti2);
@@ -1269,7 +1308,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bet00);
-        bet00.setBounds(550, 90, 20, 21);
+        bet00.setBounds(590, 80, 20, 21);
 
         bet0.setBackground(new java.awt.Color(0, 102, 51));
         bet0.addActionListener(new java.awt.event.ActionListener() {
@@ -1371,7 +1410,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(red);
-        red.setBounds(90, 400, 21, 20);
+        red.setBounds(100, 410, 21, 20);
 
         bet12.setBackground(new java.awt.Color(255, 0, 0));
         bet12.addActionListener(new java.awt.event.ActionListener() {
@@ -1389,7 +1428,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(first12);
-        first12.setBounds(200, 230, 20, 21);
+        first12.setBounds(220, 260, 20, 21);
 
         bet0x00.setBackground(new java.awt.Color(0, 102, 51));
         bet0x00.addActionListener(new java.awt.event.ActionListener() {
@@ -1400,23 +1439,6 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(bet0x00);
         bet0x00.setBounds(460, 80, 20, 21);
 
-        zeroDevider.setBackground(new java.awt.Color(204, 204, 0));
-        zeroDevider.setForeground(new java.awt.Color(255, 255, 0));
-
-        javax.swing.GroupLayout zeroDeviderLayout = new javax.swing.GroupLayout(zeroDevider);
-        zeroDevider.setLayout(zeroDeviderLayout);
-        zeroDeviderLayout.setHorizontalGroup(
-            zeroDeviderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 20, Short.MAX_VALUE)
-        );
-        zeroDeviderLayout.setVerticalGroup(
-            zeroDeviderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 70, Short.MAX_VALUE)
-        );
-
-        getContentPane().add(zeroDevider);
-        zeroDevider.setBounds(460, 50, 20, 70);
-
         black.setBackground(new java.awt.Color(0, 0, 0));
         black.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1424,7 +1446,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(black);
-        black.setBounds(90, 520, 20, 21);
+        black.setBounds(100, 530, 20, 21);
 
         odd.setBackground(new java.awt.Color(0, 102, 51));
         odd.addActionListener(new java.awt.event.ActionListener() {
@@ -1433,7 +1455,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(odd);
-        odd.setBounds(110, 640, 20, 21);
+        odd.setBounds(100, 680, 20, 21);
 
         even.setBackground(new java.awt.Color(0, 102, 51));
         even.addActionListener(new java.awt.event.ActionListener() {
@@ -1442,7 +1464,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(even);
-        even.setBounds(110, 290, 20, 21);
+        even.setBounds(100, 320, 20, 21);
 
         thirdColumn.setBackground(new java.awt.Color(0, 102, 51));
         thirdColumn.addActionListener(new java.awt.event.ActionListener() {
@@ -1451,7 +1473,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(thirdColumn);
-        thirdColumn.setBounds(580, 860, 20, 21);
+        thirdColumn.setBounds(600, 860, 20, 21);
 
         secondColumn.setBackground(new java.awt.Color(0, 102, 51));
         secondColumn.addActionListener(new java.awt.event.ActionListener() {
@@ -1460,7 +1482,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(secondColumn);
-        secondColumn.setBounds(470, 860, 20, 21);
+        secondColumn.setBounds(480, 860, 20, 21);
 
         firstColumn.setBackground(new java.awt.Color(0, 102, 51));
         firstColumn.addActionListener(new java.awt.event.ActionListener() {
@@ -1469,7 +1491,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(firstColumn);
-        firstColumn.setBounds(350, 860, 20, 21);
+        firstColumn.setBounds(360, 860, 20, 21);
 
         firstHalf.setBackground(new java.awt.Color(0, 102, 51));
         firstHalf.addActionListener(new java.awt.event.ActionListener() {
@@ -1478,7 +1500,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(firstHalf);
-        firstHalf.setBounds(110, 170, 20, 21);
+        firstHalf.setBounds(100, 200, 20, 21);
 
         secondHalf.setBackground(new java.awt.Color(0, 102, 51));
         secondHalf.addActionListener(new java.awt.event.ActionListener() {
@@ -1496,7 +1518,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(third12);
-        third12.setBounds(200, 700, 20, 21);
+        third12.setBounds(220, 740, 20, 21);
 
         second12.setBackground(new java.awt.Color(0, 102, 51));
         second12.addActionListener(new java.awt.event.ActionListener() {
@@ -1505,11 +1527,705 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         getContentPane().add(second12);
-        second12.setBounds(200, 460, 20, 21);
+        second12.setBounds(220, 500, 20, 21);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\henea\\Downloads\\roulette-table-5670823.jpg")); // NOI18N
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(-10, -190, 940, 1310);
+        jTextField1.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField1.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField1.setText("3");
+        jTextField1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField1);
+        jTextField1.setBounds(530, 120, 120, 60);
+
+        jTextField2.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField2.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField2.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2.setText("00");
+        jTextField2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField2);
+        jTextField2.setBounds(470, 60, 180, 60);
+
+        jTextField3.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField3.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField3.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3.setText("2");
+        jTextField3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField3);
+        jTextField3.setBounds(410, 120, 120, 60);
+
+        jTextField4.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField4.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField4.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField4.setText("6");
+        jTextField4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField4);
+        jTextField4.setBounds(530, 180, 120, 60);
+
+        jTextField5.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField5.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField5.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5.setText("5");
+        jTextField5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField5ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField5);
+        jTextField5.setBounds(410, 180, 120, 60);
+
+        jTextField6.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField6.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField6.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField6.setText("4");
+        jTextField6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField6ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField6);
+        jTextField6.setBounds(290, 180, 120, 60);
+
+        jTextField7.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField7.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField7.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7.setText("12");
+        jTextField7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField7ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField7);
+        jTextField7.setBounds(530, 300, 120, 60);
+
+        jTextField8.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField8.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField8.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8.setText("10");
+        jTextField8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField8ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField8);
+        jTextField8.setBounds(290, 300, 120, 60);
+
+        jTextField9.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField9.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField9.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9.setText("11");
+        jTextField9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField9ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField9);
+        jTextField9.setBounds(410, 300, 120, 60);
+
+        jTextField10.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField10.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField10.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField10.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField10.setText("7");
+        jTextField10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField10ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField10);
+        jTextField10.setBounds(290, 240, 120, 70);
+
+        jTextField11.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField11.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField11.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField11.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField11.setText("8");
+        jTextField11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField11ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField11);
+        jTextField11.setBounds(410, 240, 120, 70);
+
+        jTextField12.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField12.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField12.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField12.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField12.setText("9");
+        jTextField12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField12ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField12);
+        jTextField12.setBounds(530, 240, 120, 70);
+
+        jTextField13.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField13.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField13.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField13.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField13.setText("16");
+        jTextField13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField13ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField13);
+        jTextField13.setBounds(290, 420, 120, 60);
+
+        jTextField14.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField14.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField14.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField14.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField14.setText("17");
+        jTextField14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField14ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField14);
+        jTextField14.setBounds(410, 420, 120, 60);
+
+        jTextField15.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField15.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField15.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField15.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField15.setText("18");
+        jTextField15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField15ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField15);
+        jTextField15.setBounds(530, 420, 120, 60);
+
+        jTextField16.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField16.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField16.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField16.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField16.setText("15");
+        jTextField16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField16ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField16);
+        jTextField16.setBounds(530, 360, 120, 70);
+
+        jTextField17.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField17.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField17.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField17.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField17.setText("14");
+        jTextField17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField17ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField17);
+        jTextField17.setBounds(410, 360, 120, 70);
+
+        jTextField18.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField18.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField18.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField18.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField18.setText("13");
+        jTextField18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField18ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField18);
+        jTextField18.setBounds(290, 360, 120, 70);
+
+        jTextField19.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField19.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField19.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField19.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField19.setText("22");
+        jTextField19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField19ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField19);
+        jTextField19.setBounds(290, 540, 120, 60);
+
+        jTextField20.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField20.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField20.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField20.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField20.setText("19");
+        jTextField20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField20ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField20);
+        jTextField20.setBounds(290, 480, 120, 60);
+
+        jTextField21.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField21.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField21.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField21.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField21.setText("20");
+        jTextField21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField21ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField21);
+        jTextField21.setBounds(410, 480, 120, 60);
+
+        jTextField22.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField22.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField22.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField22.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField22.setText("21");
+        jTextField22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField22ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField22);
+        jTextField22.setBounds(530, 480, 120, 60);
+
+        jTextField23.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField23.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField23.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField23.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField23.setText("24");
+        jTextField23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField23ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField23);
+        jTextField23.setBounds(530, 540, 120, 60);
+
+        jTextField24.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField24.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField24.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField24.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField24.setText("23");
+        jTextField24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField24ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField24);
+        jTextField24.setBounds(410, 540, 120, 60);
+
+        jTextField25.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField25.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField25.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField25.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField25.setText("25");
+        jTextField25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField25ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField25);
+        jTextField25.setBounds(290, 600, 120, 60);
+
+        jTextField26.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField26.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField26.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField26.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField26.setText("26");
+        jTextField26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField26ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField26);
+        jTextField26.setBounds(410, 600, 120, 60);
+
+        jTextField27.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField27.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField27.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField27.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField27.setText("27");
+        jTextField27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField27ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField27);
+        jTextField27.setBounds(530, 600, 120, 60);
+
+        jTextField28.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField28.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField28.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField28.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField28.setText("29");
+        jTextField28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField28ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField28);
+        jTextField28.setBounds(410, 660, 120, 60);
+
+        jTextField29.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField29.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField29.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField29.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField29.setText("30");
+        jTextField29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField29ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField29);
+        jTextField29.setBounds(530, 660, 120, 60);
+
+        jTextField30.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField30.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField30.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField30.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField30.setText("28");
+        jTextField30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField30ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField30);
+        jTextField30.setBounds(290, 660, 120, 60);
+
+        jTextField31.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField31.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField31.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField31.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField31.setText("32");
+        jTextField31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField31ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField31);
+        jTextField31.setBounds(410, 720, 120, 60);
+
+        jTextField32.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField32.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField32.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField32.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField32.setText("31");
+        jTextField32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField32ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField32);
+        jTextField32.setBounds(290, 720, 120, 60);
+
+        jTextField33.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField33.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField33.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField33.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField33.setText("33");
+        jTextField33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField33ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField33);
+        jTextField33.setBounds(530, 720, 120, 60);
+
+        jTextField34.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField34.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField34.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField34.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField34.setText("36");
+        jTextField34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField34ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField34);
+        jTextField34.setBounds(530, 780, 120, 60);
+
+        jTextField35.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField35.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField35.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField35.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField35.setText("34");
+        jTextField35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField35ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField35);
+        jTextField35.setBounds(290, 780, 120, 60);
+
+        jTextField36.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField36.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField36.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField36.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField36.setText("35");
+        jTextField36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField36ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField36);
+        jTextField36.setBounds(410, 780, 120, 60);
+
+        jTextField38.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField38.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField38.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField38.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField38.setText("2 to 1");
+        jTextField38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField38.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField38ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField38);
+        jTextField38.setBounds(530, 840, 120, 60);
+
+        jTextField40.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField40.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField40.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField40.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField40.setText("2 to 1");
+        jTextField40.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField40ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField40);
+        jTextField40.setBounds(290, 840, 120, 60);
+
+        jTextField41.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField41.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField41.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField41.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField41.setText("2 to 1");
+        jTextField41.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField41.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField41ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField41);
+        jTextField41.setBounds(410, 840, 120, 60);
+
+        jTextField37.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField37.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField37.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField37.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField37.setText("1");
+        jTextField37.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField37ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField37);
+        jTextField37.setBounds(290, 120, 120, 60);
+
+        jTextField39.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField39.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField39.setForeground(new java.awt.Color(240, 240, 240));
+        jTextField39.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField39.setText("3rd 12");
+        jTextField39.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField39ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField39);
+        jTextField39.setBounds(160, 600, 130, 240);
+
+        jTextField42.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField42.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField42.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField42.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField42.setText("0");
+        jTextField42.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField42ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField42);
+        jTextField42.setBounds(290, 60, 180, 60);
+
+        jTextField43.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField43.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jTextField43.setForeground(new java.awt.Color(240, 240, 240));
+        jTextField43.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField43.setText("19 to 36");
+        jTextField43.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField43.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField43ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField43);
+        jTextField43.setBounds(50, 720, 110, 120);
+
+        jTextField44.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField44.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField44.setForeground(new java.awt.Color(240, 240, 240));
+        jTextField44.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField44.setText("2nd 12");
+        jTextField44.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField44.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField44ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField44);
+        jTextField44.setBounds(160, 360, 130, 240);
+
+        jTextField45.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField45.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jTextField45.setForeground(new java.awt.Color(240, 240, 240));
+        jTextField45.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField45.setText("1st 12");
+        jTextField45.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField45ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField45);
+        jTextField45.setBounds(160, 120, 130, 240);
+
+        jTextField46.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField46.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jTextField46.setForeground(new java.awt.Color(240, 240, 240));
+        jTextField46.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField46.setText("1 to 18");
+        jTextField46.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField46.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField46ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField46);
+        jTextField46.setBounds(50, 120, 110, 120);
+
+        jTextField47.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField47.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jTextField47.setForeground(new java.awt.Color(240, 240, 240));
+        jTextField47.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField47.setText("EVEN");
+        jTextField47.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField47ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField47);
+        jTextField47.setBounds(50, 240, 110, 120);
+
+        jTextField48.setBackground(new java.awt.Color(255, 0, 0));
+        jTextField48.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jTextField48.setForeground(new java.awt.Color(240, 240, 240));
+        jTextField48.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField48.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField48.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField48ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField48);
+        jTextField48.setBounds(50, 360, 110, 120);
+
+        jTextField49.setBackground(new java.awt.Color(0, 0, 0));
+        jTextField49.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jTextField49.setForeground(new java.awt.Color(240, 240, 240));
+        jTextField49.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField49.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField49.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField49ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField49);
+        jTextField49.setBounds(50, 480, 110, 120);
+
+        jTextField50.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField50.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jTextField50.setForeground(new java.awt.Color(240, 240, 240));
+        jTextField50.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField50.setText("ODD");
+        jTextField50.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
+        jTextField50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField50ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField50);
+        jTextField50.setBounds(50, 600, 110, 120);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -2627,6 +3343,210 @@ public class GUI extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_bet0x00ActionPerformed
 
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField3ActionPerformed
+
+    private void bet1to6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bet1to6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bet1to6ActionPerformed
+
+    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField4ActionPerformed
+
+    private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField5ActionPerformed
+
+    private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField6ActionPerformed
+
+    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField7ActionPerformed
+
+    private void jTextField8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField8ActionPerformed
+
+    private void jTextField9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField9ActionPerformed
+
+    private void jTextField10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField10ActionPerformed
+
+    private void jTextField11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField11ActionPerformed
+
+    private void jTextField12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField12ActionPerformed
+
+    private void jTextField13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField13ActionPerformed
+
+    private void jTextField14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField14ActionPerformed
+
+    private void jTextField15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField15ActionPerformed
+
+    private void jTextField16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField16ActionPerformed
+
+    private void jTextField17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField17ActionPerformed
+
+    private void jTextField18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField18ActionPerformed
+
+    private void jTextField19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField19ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField19ActionPerformed
+
+    private void jTextField20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField20ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField20ActionPerformed
+
+    private void jTextField21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField21ActionPerformed
+
+    private void jTextField22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField22ActionPerformed
+
+    private void jTextField23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField23ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField23ActionPerformed
+
+    private void jTextField24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField24ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField24ActionPerformed
+
+    private void jTextField25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField25ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField25ActionPerformed
+
+    private void jTextField26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField26ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField26ActionPerformed
+
+    private void jTextField27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField27ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField27ActionPerformed
+
+    private void jTextField28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField28ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField28ActionPerformed
+
+    private void jTextField29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField29ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField29ActionPerformed
+
+    private void jTextField30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField30ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField30ActionPerformed
+
+    private void jTextField31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField31ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField31ActionPerformed
+
+    private void jTextField32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField32ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField32ActionPerformed
+
+    private void jTextField33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField33ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField33ActionPerformed
+
+    private void jTextField34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField34ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField34ActionPerformed
+
+    private void jTextField35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField35ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField35ActionPerformed
+
+    private void jTextField36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField36ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField36ActionPerformed
+
+    private void jTextField38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField38ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField38ActionPerformed
+
+    private void jTextField40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField40ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField40ActionPerformed
+
+    private void jTextField41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField41ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField41ActionPerformed
+
+    private void jTextField37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField37ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField37ActionPerformed
+
+    private void jTextField39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField39ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField39ActionPerformed
+
+    private void jTextField42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField42ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField42ActionPerformed
+
+    private void jTextField43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField43ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField43ActionPerformed
+
+    private void jTextField44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField44ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField44ActionPerformed
+
+    private void jTextField45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField45ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField45ActionPerformed
+
+    private void jTextField46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField46ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField46ActionPerformed
+
+    private void jTextField47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField47ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField47ActionPerformed
+
+    private void jTextField48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField48ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField48ActionPerformed
+
+    private void jTextField49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField49ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField49ActionPerformed
+
+    private void jTextField50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField50ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField50ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -2666,7 +3586,6 @@ public class GUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel ZeroLabel;
     private javax.swing.JCheckBox bet0;
     private javax.swing.JCheckBox bet00;
     private javax.swing.JCheckBox bet0002;
@@ -2815,13 +3734,61 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JCheckBox bet9x12;
     private javax.swing.JCheckBox betBasket;
     private javax.swing.JCheckBox black;
-    private javax.swing.JLabel doubleZer;
     private javax.swing.JCheckBox even;
     private javax.swing.JCheckBox first12;
     private javax.swing.JCheckBox firstColumn;
     private javax.swing.JCheckBox firstHalf;
     private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField10;
+    private javax.swing.JTextField jTextField11;
+    private javax.swing.JTextField jTextField12;
+    private javax.swing.JTextField jTextField13;
+    private javax.swing.JTextField jTextField14;
+    private javax.swing.JTextField jTextField15;
+    private javax.swing.JTextField jTextField16;
+    private javax.swing.JTextField jTextField17;
+    private javax.swing.JTextField jTextField18;
+    private javax.swing.JTextField jTextField19;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField20;
+    private javax.swing.JTextField jTextField21;
+    private javax.swing.JTextField jTextField22;
+    private javax.swing.JTextField jTextField23;
+    private javax.swing.JTextField jTextField24;
+    private javax.swing.JTextField jTextField25;
+    private javax.swing.JTextField jTextField26;
+    private javax.swing.JTextField jTextField27;
+    private javax.swing.JTextField jTextField28;
+    private javax.swing.JTextField jTextField29;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField30;
+    private javax.swing.JTextField jTextField31;
+    private javax.swing.JTextField jTextField32;
+    private javax.swing.JTextField jTextField33;
+    private javax.swing.JTextField jTextField34;
+    private javax.swing.JTextField jTextField35;
+    private javax.swing.JTextField jTextField36;
+    private javax.swing.JTextField jTextField37;
+    private javax.swing.JTextField jTextField38;
+    private javax.swing.JTextField jTextField39;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField40;
+    private javax.swing.JTextField jTextField41;
+    private javax.swing.JTextField jTextField42;
+    private javax.swing.JTextField jTextField43;
+    private javax.swing.JTextField jTextField44;
+    private javax.swing.JTextField jTextField45;
+    private javax.swing.JTextField jTextField46;
+    private javax.swing.JTextField jTextField47;
+    private javax.swing.JTextField jTextField48;
+    private javax.swing.JTextField jTextField49;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField50;
+    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
+    private javax.swing.JTextField jTextField9;
     private javax.swing.JCheckBox odd;
     private javax.swing.JCheckBox red;
     private javax.swing.JCheckBox second12;
@@ -2831,6 +3798,5 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JLabel texti2;
     private javax.swing.JCheckBox third12;
     private javax.swing.JCheckBox thirdColumn;
-    private javax.swing.JPanel zeroDevider;
     // End of variables declaration//GEN-END:variables
 }
