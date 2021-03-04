@@ -1253,7 +1253,6 @@ public class GUI extends javax.swing.JFrame {
         bet0023.setBounds(520, 110, 20, 21);
 
         texti.setBackground(new java.awt.Color(0, 0, 0));
-        texti.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         getContentPane().add(texti);
         texti.setBounds(10, 880, 2230, 100);
 
@@ -1526,9 +1525,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(second12);
         second12.setBounds(220, 500, 20, 21);
 
-        jTextField1.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField1.setBackground(new java.awt.Color(255, 0, 0));
         jTextField1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField1.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField1.setForeground(new java.awt.Color(255, 255, 255));
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField1.setText("3");
         jTextField1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1542,7 +1541,7 @@ public class GUI extends javax.swing.JFrame {
 
         jTextField2.setBackground(new java.awt.Color(0, 153, 0));
         jTextField2.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField2.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField2.setForeground(new java.awt.Color(255, 255, 0));
         jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField2.setText("00");
         jTextField2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1554,9 +1553,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField2);
         jTextField2.setBounds(470, 60, 180, 60);
 
-        jTextField3.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField3.setBackground(new java.awt.Color(0, 0, 0));
         jTextField3.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField3.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField3.setForeground(new java.awt.Color(255, 255, 255));
         jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField3.setText("2");
         jTextField3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1568,9 +1567,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField3);
         jTextField3.setBounds(410, 120, 120, 60);
 
-        jTextField4.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField4.setBackground(new java.awt.Color(0, 0, 0));
         jTextField4.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField4.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField4.setForeground(new java.awt.Color(255, 255, 255));
         jTextField4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField4.setText("6");
         jTextField4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1582,9 +1581,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField4);
         jTextField4.setBounds(530, 180, 120, 60);
 
-        jTextField5.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField5.setBackground(new java.awt.Color(255, 0, 0));
         jTextField5.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField5.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField5.setForeground(new java.awt.Color(255, 255, 255));
         jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField5.setText("5");
         jTextField5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1596,9 +1595,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField5);
         jTextField5.setBounds(410, 180, 120, 60);
 
-        jTextField6.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField6.setBackground(new java.awt.Color(0, 0, 0));
         jTextField6.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField6.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField6.setForeground(new java.awt.Color(255, 255, 255));
         jTextField6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField6.setText("4");
         jTextField6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1610,9 +1609,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField6);
         jTextField6.setBounds(290, 180, 120, 60);
 
-        jTextField7.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField7.setBackground(new java.awt.Color(255, 0, 0));
         jTextField7.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField7.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField7.setForeground(new java.awt.Color(255, 255, 255));
         jTextField7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField7.setText("12");
         jTextField7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1624,9 +1623,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField7);
         jTextField7.setBounds(530, 300, 120, 60);
 
-        jTextField8.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField8.setBackground(new java.awt.Color(0, 0, 0));
         jTextField8.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField8.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField8.setForeground(new java.awt.Color(255, 255, 255));
         jTextField8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField8.setText("10");
         jTextField8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1638,9 +1637,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField8);
         jTextField8.setBounds(290, 300, 120, 60);
 
-        jTextField9.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField9.setBackground(new java.awt.Color(0, 0, 0));
         jTextField9.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField9.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField9.setForeground(new java.awt.Color(255, 255, 255));
         jTextField9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField9.setText("11");
         jTextField9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1652,9 +1651,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField9);
         jTextField9.setBounds(410, 300, 120, 60);
 
-        jTextField10.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField10.setBackground(new java.awt.Color(255, 0, 0));
         jTextField10.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField10.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField10.setForeground(new java.awt.Color(255, 255, 255));
         jTextField10.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField10.setText("7");
         jTextField10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1666,9 +1665,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField10);
         jTextField10.setBounds(290, 240, 120, 70);
 
-        jTextField11.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField11.setBackground(new java.awt.Color(0, 0, 0));
         jTextField11.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField11.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField11.setForeground(new java.awt.Color(255, 255, 255));
         jTextField11.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField11.setText("8");
         jTextField11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1680,9 +1679,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField11);
         jTextField11.setBounds(410, 240, 120, 70);
 
-        jTextField12.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField12.setBackground(new java.awt.Color(255, 0, 0));
         jTextField12.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField12.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField12.setForeground(new java.awt.Color(255, 255, 255));
         jTextField12.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField12.setText("9");
         jTextField12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1694,9 +1693,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField12);
         jTextField12.setBounds(530, 240, 120, 70);
 
-        jTextField13.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField13.setBackground(new java.awt.Color(255, 0, 0));
         jTextField13.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField13.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField13.setForeground(new java.awt.Color(255, 255, 255));
         jTextField13.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField13.setText("16");
         jTextField13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1708,9 +1707,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField13);
         jTextField13.setBounds(290, 420, 120, 60);
 
-        jTextField14.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField14.setBackground(new java.awt.Color(0, 0, 0));
         jTextField14.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField14.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField14.setForeground(new java.awt.Color(255, 255, 255));
         jTextField14.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField14.setText("17");
         jTextField14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1722,9 +1721,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField14);
         jTextField14.setBounds(410, 420, 120, 60);
 
-        jTextField15.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField15.setBackground(new java.awt.Color(255, 0, 0));
         jTextField15.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField15.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField15.setForeground(new java.awt.Color(255, 255, 255));
         jTextField15.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField15.setText("18");
         jTextField15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1736,9 +1735,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField15);
         jTextField15.setBounds(530, 420, 120, 60);
 
-        jTextField16.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField16.setBackground(new java.awt.Color(0, 0, 0));
         jTextField16.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField16.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField16.setForeground(new java.awt.Color(255, 255, 255));
         jTextField16.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField16.setText("15");
         jTextField16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1750,9 +1749,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField16);
         jTextField16.setBounds(530, 360, 120, 70);
 
-        jTextField17.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField17.setBackground(new java.awt.Color(255, 0, 0));
         jTextField17.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField17.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField17.setForeground(new java.awt.Color(255, 255, 255));
         jTextField17.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField17.setText("14");
         jTextField17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1764,9 +1763,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField17);
         jTextField17.setBounds(410, 360, 120, 70);
 
-        jTextField18.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField18.setBackground(new java.awt.Color(0, 0, 0));
         jTextField18.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField18.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField18.setForeground(new java.awt.Color(255, 255, 255));
         jTextField18.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField18.setText("13");
         jTextField18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1778,9 +1777,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField18);
         jTextField18.setBounds(290, 360, 120, 70);
 
-        jTextField19.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField19.setBackground(new java.awt.Color(0, 0, 0));
         jTextField19.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField19.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField19.setForeground(new java.awt.Color(255, 255, 255));
         jTextField19.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField19.setText("22");
         jTextField19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1792,9 +1791,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField19);
         jTextField19.setBounds(290, 540, 120, 60);
 
-        jTextField20.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField20.setBackground(new java.awt.Color(255, 0, 0));
         jTextField20.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField20.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField20.setForeground(new java.awt.Color(255, 255, 255));
         jTextField20.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField20.setText("19");
         jTextField20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1806,9 +1805,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField20);
         jTextField20.setBounds(290, 480, 120, 60);
 
-        jTextField21.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField21.setBackground(new java.awt.Color(0, 0, 0));
         jTextField21.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField21.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField21.setForeground(new java.awt.Color(255, 255, 255));
         jTextField21.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField21.setText("20");
         jTextField21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1820,9 +1819,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField21);
         jTextField21.setBounds(410, 480, 120, 60);
 
-        jTextField22.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField22.setBackground(new java.awt.Color(255, 0, 0));
         jTextField22.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField22.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField22.setForeground(new java.awt.Color(255, 255, 255));
         jTextField22.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField22.setText("21");
         jTextField22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1834,9 +1833,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField22);
         jTextField22.setBounds(530, 480, 120, 60);
 
-        jTextField23.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField23.setBackground(new java.awt.Color(0, 0, 0));
         jTextField23.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField23.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField23.setForeground(new java.awt.Color(255, 255, 255));
         jTextField23.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField23.setText("24");
         jTextField23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1848,9 +1847,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField23);
         jTextField23.setBounds(530, 540, 120, 60);
 
-        jTextField24.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField24.setBackground(new java.awt.Color(255, 0, 0));
         jTextField24.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField24.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField24.setForeground(new java.awt.Color(255, 255, 255));
         jTextField24.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField24.setText("23");
         jTextField24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1862,9 +1861,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField24);
         jTextField24.setBounds(410, 540, 120, 60);
 
-        jTextField25.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField25.setBackground(new java.awt.Color(255, 0, 0));
         jTextField25.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField25.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField25.setForeground(new java.awt.Color(255, 255, 255));
         jTextField25.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField25.setText("25");
         jTextField25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1876,9 +1875,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField25);
         jTextField25.setBounds(290, 600, 120, 60);
 
-        jTextField26.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField26.setBackground(new java.awt.Color(0, 0, 0));
         jTextField26.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField26.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField26.setForeground(new java.awt.Color(255, 255, 255));
         jTextField26.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField26.setText("26");
         jTextField26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1890,9 +1889,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField26);
         jTextField26.setBounds(410, 600, 120, 60);
 
-        jTextField27.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField27.setBackground(new java.awt.Color(255, 0, 0));
         jTextField27.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField27.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField27.setForeground(new java.awt.Color(255, 255, 255));
         jTextField27.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField27.setText("27");
         jTextField27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1904,9 +1903,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField27);
         jTextField27.setBounds(530, 600, 120, 60);
 
-        jTextField28.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField28.setBackground(new java.awt.Color(0, 0, 0));
         jTextField28.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField28.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField28.setForeground(new java.awt.Color(255, 255, 255));
         jTextField28.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField28.setText("29");
         jTextField28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1918,9 +1917,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField28);
         jTextField28.setBounds(410, 660, 120, 60);
 
-        jTextField29.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField29.setBackground(new java.awt.Color(255, 0, 0));
         jTextField29.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField29.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField29.setForeground(new java.awt.Color(255, 255, 255));
         jTextField29.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField29.setText("30");
         jTextField29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1932,9 +1931,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField29);
         jTextField29.setBounds(530, 660, 120, 60);
 
-        jTextField30.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField30.setBackground(new java.awt.Color(0, 0, 0));
         jTextField30.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField30.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField30.setForeground(new java.awt.Color(255, 255, 255));
         jTextField30.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField30.setText("28");
         jTextField30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1946,9 +1945,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField30);
         jTextField30.setBounds(290, 660, 120, 60);
 
-        jTextField31.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField31.setBackground(new java.awt.Color(255, 0, 0));
         jTextField31.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField31.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField31.setForeground(new java.awt.Color(255, 255, 255));
         jTextField31.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField31.setText("32");
         jTextField31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1960,9 +1959,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField31);
         jTextField31.setBounds(410, 720, 120, 60);
 
-        jTextField32.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField32.setBackground(new java.awt.Color(0, 0, 0));
         jTextField32.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField32.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField32.setForeground(new java.awt.Color(255, 255, 255));
         jTextField32.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField32.setText("31");
         jTextField32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1974,9 +1973,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField32);
         jTextField32.setBounds(290, 720, 120, 60);
 
-        jTextField33.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField33.setBackground(new java.awt.Color(0, 0, 0));
         jTextField33.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField33.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField33.setForeground(new java.awt.Color(255, 255, 255));
         jTextField33.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField33.setText("33");
         jTextField33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -1988,9 +1987,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField33);
         jTextField33.setBounds(530, 720, 120, 60);
 
-        jTextField34.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField34.setBackground(new java.awt.Color(255, 0, 0));
         jTextField34.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField34.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField34.setForeground(new java.awt.Color(255, 255, 255));
         jTextField34.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField34.setText("36");
         jTextField34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -2002,9 +2001,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField34);
         jTextField34.setBounds(530, 780, 120, 60);
 
-        jTextField35.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField35.setBackground(new java.awt.Color(255, 0, 0));
         jTextField35.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField35.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField35.setForeground(new java.awt.Color(255, 255, 255));
         jTextField35.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField35.setText("34");
         jTextField35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -2016,9 +2015,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField35);
         jTextField35.setBounds(290, 780, 120, 60);
 
-        jTextField36.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField36.setBackground(new java.awt.Color(0, 0, 0));
         jTextField36.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField36.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField36.setForeground(new java.awt.Color(255, 255, 255));
         jTextField36.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField36.setText("35");
         jTextField36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -2072,9 +2071,9 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().add(jTextField41);
         jTextField41.setBounds(410, 840, 120, 60);
 
-        jTextField37.setBackground(new java.awt.Color(0, 153, 0));
+        jTextField37.setBackground(new java.awt.Color(255, 0, 0));
         jTextField37.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField37.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField37.setForeground(new java.awt.Color(255, 255, 255));
         jTextField37.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField37.setText("1");
         jTextField37.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
@@ -2102,7 +2101,7 @@ public class GUI extends javax.swing.JFrame {
 
         jTextField42.setBackground(new java.awt.Color(0, 153, 0));
         jTextField42.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jTextField42.setForeground(new java.awt.Color(255, 0, 51));
+        jTextField42.setForeground(new java.awt.Color(255, 255, 0));
         jTextField42.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField42.setText("0");
         jTextField42.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 0), 3));
