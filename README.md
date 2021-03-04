@@ -1,6 +1,7 @@
 A roulette bet calculator. 
 Made for players who want to adjust their betting system.
 NOT FINISHED YET. 
+This is a prototype
 
 To run: download scf file and run main.
 
