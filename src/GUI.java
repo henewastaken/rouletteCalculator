@@ -1251,10 +1251,16 @@ public class GUI extends javax.swing.JFrame {
         bet0023.setBackground(new java.awt.Color(0, 102, 0));
         getContentPane().add(bet0023);
         bet0023.setBounds(520, 110, 20, 21);
+
+        texti.setBackground(new java.awt.Color(0, 0, 0));
+        texti.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         getContentPane().add(texti);
-        texti.setBounds(20, 1080, 920, 100);
+        texti.setBounds(10, 880, 2230, 100);
+
+        texti2.setBackground(new java.awt.Color(51, 51, 51));
+        texti2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         getContentPane().add(texti2);
-        texti2.setBounds(20, 960, 1060, 100);
+        texti2.setBounds(10, 910, 2200, 100);
 
         bet1.setBackground(new java.awt.Color(255, 0, 0));
         bet1.addActionListener(new java.awt.event.ActionListener() {
@@ -2227,7 +2233,7 @@ public class GUI extends javax.swing.JFrame {
     private void straightHandler () {
         /* Ensin panos, sitten numero */
         if (bet00.isSelected()) {
-            Roulette.betsList.add(new Straight(1, -1));  
+            Roulette.betsList.add(new Straight(1, 37));  
         }
         if (bet0.isSelected()) {
             Roulette.betsList.add(new Straight(1, 0));  
@@ -2830,10 +2836,10 @@ public class GUI extends javax.swing.JFrame {
         blackHandler();
         
         // Apumuuttujat panosten tulosten tulostamiseen
-        String list = String.valueOf(Roulette.betsList);
+        //String list = String.valueOf(Roulette.betsList);
         String trough = String.valueOf(Roulette.goTrough(Roulette.betsList));
 
-        this.texti.setText(list);
+        //this.texti.setText(list); // Shows all bets player made. Mostyl for debugging
         this.texti2.setText(trough); 
         // Tyhjätään listä uutta peliä varten
         Roulette.betsList.clear();
